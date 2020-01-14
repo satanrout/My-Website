@@ -1,8 +1,9 @@
 body {
     background-image: url(laptop.jpg);
     background-size: cover;
-    margin:0px;
+    margin:0% 1%;
     padding:0px;
+    background-attachment: fixed;
 }
 /*
 header {
@@ -11,9 +12,16 @@ header {
 .logo {
     position: relative; top:5px; left:25px;
 }*/
-#bar {
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(27, 90, 161);
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.9em;
+}
+.bar {
     text-align: right;
     margin:0px;
+    position: relative; bottom:55px;
 }
 .nav:hover {
     background-color: #7C7C7C;
@@ -21,10 +29,10 @@ header {
 .nav {
     list-style: none;
     display: inline-block;
-    position: relative; bottom:25px;
     color: green;
     font-size: 1.5em;
     margin:0px;
+    padding: 5px;
 }
 h2 {
     text-align: center;
@@ -49,11 +57,18 @@ p {
     font-family: serif;
     text-align: center;
 }
-span {
+.respan {
     background-color: #6BE4EA;
     padding: 3px 10px;
     border-radius: 10px;
 }
+.face:hover {
+    background-color: black;
+}
 a {
     color: green;
+    text-decoration: none;    
+}
+.profile {
+    text-align: center;
 }
