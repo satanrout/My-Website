@@ -16,23 +16,24 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(27, 90, 161);
     text-shadow: 2px 2px 2px black;
-    font-size: 1.9em;
+    font-size: 1.7em;
 }
 .bar {
     text-align: right;
     margin:0px;
-    position: relative; bottom:55px;
+    position: relative; bottom:44px;
 }
 .nav:hover {
     background-color: #7C7C7C;
+    text-shadow: 1px 1px 1px black;
 }
 .nav {
     list-style: none;
     display: inline-block;
     color: green;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin:0px;
-    padding: 5px;
+    padding: 2px 3px;
 }
 h2 {
     text-align: center;
@@ -62,8 +63,20 @@ p {
     padding: 3px 10px;
     border-radius: 10px;
 }
-.face:hover {
-    background-color: black;
+.facebook:hover {
+    filter: drop-shadow(2px 2px 2px grey);
+}
+.twitter:hover {
+    filter: drop-shadow(2px 2px 2px grey);
+}
+.github:hover {
+    filter: drop-shadow(2px 2px 2px grey);
+}
+.linkedin:hover {
+    filter: drop-shadow(2px 2px 2px grey);
+}
+.reddit:hover {
+    filter: drop-shadow(2px 2px 2px grey);
 }
 a {
     color: green;
