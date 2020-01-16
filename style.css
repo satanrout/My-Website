@@ -65,18 +65,23 @@ p {
 }
 .facebook:hover {
     filter: drop-shadow(2px 2px 2px grey);
+    transform: scale(1.2);
 }
 .twitter:hover {
     filter: drop-shadow(2px 2px 2px grey);
+    transform: scale(1.2);
 }
 .github:hover {
     filter: drop-shadow(2px 2px 2px grey);
+    transform: scale(1.2);
 }
 .linkedin:hover {
     filter: drop-shadow(2px 2px 2px grey);
+    transform: scale(1.2);
 }
 .reddit:hover {
     filter: drop-shadow(2px 2px 2px grey);
+    transform: scale(1.2);
 }
 a {
     color: green;
@@ -85,8 +90,17 @@ a {
 .profile {
     text-align: center;
 }
-.footer {
+.footercontent {
     color:white;
-    position: absolute;
-    bottom:0;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right:0;
+  width: 100%;
+  background-color: rgba(9, 9, 27, 0.2);
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
 }
