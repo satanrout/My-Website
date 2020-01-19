@@ -13,7 +13,7 @@ header {
     position: relative; top:5px; left:25px;
 }*/
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Dancing Script', cursive;
     color: rgb(27, 90, 161);
     text-shadow: 2px 2px 2px black;
     font-size: 1.7em;
@@ -24,7 +24,7 @@ h1 {
     position: relative; bottom:44px;
 }
 .nav:hover {
-    background-color: #7C7C7C;
+    background-color: rgb(3, 7, 0);
     text-shadow: 1px 1px 1px black;
 }
 .nav {
@@ -37,7 +37,7 @@ h1 {
 }
 h2 {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
     color: rgb(25, 144, 241);
     text-shadow: 3px 3px 3px black;
     font-size: 2em;
@@ -45,7 +45,7 @@ h2 {
 }
 p {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.6em;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 3px black;
